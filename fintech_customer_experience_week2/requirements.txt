@@ -1,0 +1,11 @@
+pandas
+matplotlib
+seaborn
+scikit-learn
+spacy
+textblob
+transformers
+vaderSentiment
+google-play-scraper
+sqlalchemy
+cx_Oracle
