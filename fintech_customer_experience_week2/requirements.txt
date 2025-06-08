@@ -6,6 +6,8 @@ spacy
 textblob
 transformers
 vaderSentiment
+transformers 
+torch
 google-play-scraper
 schedule
 sqlalchemy

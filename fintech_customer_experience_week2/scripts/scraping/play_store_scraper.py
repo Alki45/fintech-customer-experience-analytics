@@ -8,9 +8,9 @@ logging.basicConfig(filename='scraper.log', level=logging.INFO, format='%(asctim
 
 # ✅ Apps listed in the challenge
 apps = {
-    'Commercial Bank of Ethiopia': 'com.cbe.customerapp',
+    'Commercial Bank of Ethiopia': 'com.combanketh.mobilebanking',
     'Dashen Bank': 'com.dashen.dashensuperapp',
-    'Bank of Abyssinia': 'com.bankofabyssinia.boamobile',
+    'Bank of Abyssinia': 'com.boa.boaMobileBanking',
 }
 
 def scrape_reviews(bank_name, app_id):
@@ -22,7 +22,7 @@ def scrape_reviews(bank_name, app_id):
             lang='en',
             country='us',
             sort=Sort.NEWEST,
-            count=200,
+            count=500,
             filter_score_with=None
         )
 
