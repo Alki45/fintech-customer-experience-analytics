@@ -7,5 +7,6 @@ textblob
 transformers
 vaderSentiment
 google-play-scraper
+schedule
 sqlalchemy
 cx_Oracle
